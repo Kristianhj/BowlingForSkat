@@ -1,0 +1,13 @@
+﻿<Window x:Class="BowlingForSkat.BowlingCalculator"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:BowlingForSkat"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="350" Width="720">
+    <Grid Margin="10,0,0,0">
+        <TextBlock HorizontalAlignment="Left" Margin="276,110,0,0" TextWrapping="Wrap" Text="Press button to play bowling" VerticalAlignment="Top"/>
+        <Button x:Name="LetsPlay" Content="Let's play!" HorizontalAlignment="Left" Margin="316,141,0,0" VerticalAlignment="Top" Width="81" Click="OnClick" Height="28"/>
+    </Grid>
+</Window>
